@@ -1,17 +1,20 @@
 # GuardBot
-A minecraft bot to protect stuff, made with mineflayer.
+A minecraft bot to protect stuff, made with [mineflayer](https://github.com/PrismarineJS/mineflayer).
 # Features
 ## PvP
-Using a [pvp library](https://github.com/PrismarineJS/mineflayer-pvp) for [mineflayer](https://github.com/PrismarineJS/mineflayer), made by [PrismarineJS](https://github.com/PrismarineJS), the bot is able to combat a LOT of mobs/players at the same time (trust me, I tried /tp @e GuardBot and it killed all mobs). This feature is used in commands such as guard and fight me.
+Using a [pvp package](https://github.com/PrismarineJS/mineflayer-pvp) for [mineflayer](https://github.com/PrismarineJS/mineflayer), made by [PrismarineJS](https://github.com/PrismarineJS), the bot is able to combat a LOT of mobs/players at the same time (trust me, I tried /tp @e GuardBot and it killed all mobs). This feature is used in commands such as guard and fight me.
 
 ## Pathfinding
 Using [mineflayer-pathfinder](https://github.com/PrismarineJS/mineflayer-pathfinder), made by [PrismarineJS](https://github.com/PrismarineJS), the bot is able to navigate around the world, with advanced A* pathfinding (video explaining A* can be found [here](https://www.youtube.com/watch?v=-L-WgKMFuhE)). This feature is used in almost every single command, including guard, fight me, follow and go to.
 
 ## Armor Managing
-The bot is able to manage armor, aka put on armor, put shields in off-hand, etc. This is made partly using [this](https://github.com/PrismarineJS/MineflayerArmorManager) library and partly by me.
+The bot is able to manage armor, aka put on armor, put shields in off-hand, etc. This is made partly using [this](https://github.com/PrismarineJS/MineflayerArmorManager) package and partly by me.
 
 ## Auto Eat
-The bot is able to eat when it needs, using [this](https://github.com/link-discord/mineflayer-auto-eat) library.
+The bot is able to eat when it needs, using [this](https://github.com/link-discord/mineflayer-auto-eat) package.
+
+## Web viewer
+Using [this](https://github.com/PrismarineJS/prismarine-viewer) package, you are able to view the bots screen, in your browser. Pretty epic right?
 
 # Commands
 ## Guard
@@ -21,7 +24,7 @@ The guard command allows the bot to guard a specific location in the world from 
 Simply type `guard` in the chat and it will guard the spot that you are standing on.
 
 ## Fight you
-Using the same [library](https://github.com/PrismarineJS/mineflayer-pvp) as for the guard command, the bot is able to fight you.
+Using the same [package](https://github.com/PrismarineJS/mineflayer-pvp) as for the guard command, the bot is able to fight you.
 
 **Usage**
 This is just as easy as the guard command; type `fight me` in the chat, and the bot will run towards you and start to fight you.
