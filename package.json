@@ -1,0 +1,21 @@
+{
+  "name": "botguard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IHasBone",
+  "license": "MIT",
+  "dependencies": {
+    "minecrafthawkeye": "^1.2.7",
+    "mineflayer": "^3.11.0",
+    "mineflayer-armor-manager": "^1.4.2",
+    "mineflayer-auto-eat": "^2.2.0",
+    "mineflayer-pathfinder": "^1.7.0",
+    "mineflayer-pvp": "^1.0.2",
+    "prismarine-viewer": "^1.20.0"
+  }
+}
