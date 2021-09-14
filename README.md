@@ -1,4 +1,4 @@
-# GuardBot
+# BotGuard
 A minecraft bot to protect stuff, made with [mineflayer](https://github.com/PrismarineJS/mineflayer).
 # Features
 ## PvP
