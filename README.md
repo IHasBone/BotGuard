@@ -61,3 +61,6 @@ Take the sword
 
 ## Unfinished commands
 The unfinished commands are: Protect and Godmode.
+
+## Things that might come
+A thing that I'm not sure if I should implement is bow usage.
